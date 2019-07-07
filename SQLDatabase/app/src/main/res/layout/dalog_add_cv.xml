@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/txt_tencv_da"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Thêm Công Việc"
+        android:textSize="21sp" />
+
+
+    <EditText
+        android:id="@+id/edt_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_tencv_da"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20sp"
+        android:hint="Nhập tên công việc"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_them"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_cv"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20sp"
+        android:hint="Thêm"
+        android:textSize="20sp" />
+
+    <Button
+
+        android:id="@+id/btn_huy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_cv"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="20sp"
+        android:hint="Hủy"
+        android:textSize="20sp" />
+</RelativeLayout>
